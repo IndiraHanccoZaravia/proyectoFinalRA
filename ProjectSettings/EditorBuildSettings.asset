@@ -11,12 +11,21 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SegundaEscena.unity
     guid: c5b6b5cc8c13c844386fc2eb6ccb9771
+<<<<<<< HEAD
   - enabled: 0
     path: Assets/Scenes/Menu.unity
     guid: 5fc67bd50866b154b96ca64bdd0c2872
   - enabled: 1
     path: Assets/Scenes/CanvasPrincipal.unity
     guid: a3cc2d9e1ca17c94bb99eb4eef5ac5d0
+=======
+  - enabled: 1
+    path: Assets/Scenes/Letras.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Animales.unity
+    guid: a46b3660df23db94a9aad5df028b6f42
+>>>>>>> d29821404a6171d4304ddfc46fd3804c04442ff0
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: d8626ded385f8b9498932e676458224c, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2d39a4375563f6241b8bc96861fee68a, type: 2}
