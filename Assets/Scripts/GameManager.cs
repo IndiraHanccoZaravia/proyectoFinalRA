@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public event Action OnMainMenu;
     public event Action OnItemsMenu;
     public event Action OnArPosition;
-
+    //patron singelton - asegura que solo exista una instancia
     public static GameManager instance;
     private void Awake()
     {
@@ -46,9 +46,5 @@ public class GameManager : MonoBehaviour
         Application.Quit();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
